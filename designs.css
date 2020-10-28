@@ -81,7 +81,7 @@ img#logoImage{
 
 p{
     font-size: 1.2rem;
-    line-height: 1.2rem;
+    line-height: 1.4rem;
     margin: 15px;
 }
 
@@ -105,14 +105,14 @@ article p:nth-child(2) img{
     float: right;
     width: 45%;
     margin: 0px 0px 120px 50px;
-    transform: translate(0, -60px) rotate(30deg);
+    transform: translate(0,60px) rotate(30deg);
     box-shadow: var(--Shadow)10px -10px 30px;
 }
 
 section.spotlight{
     background-color: var(--Spotlight);
     padding: 15px;
-    overflow: hidden;
+    overflow: auto;
 }
 
 section.spotlight h1{
@@ -131,7 +131,7 @@ section.spotlight img {
 }
 
 section.spotlight p{
-    margin: 0;
+    margin-bottom: 0;
 }
 aside{
     background-color: var(--Text-background);
@@ -152,7 +152,7 @@ aside h1{
 aside img{
     display: block;
     width: 30%;
-    margin: 5px 200px 5px 200px;
+    margin: 5px auto;
 }
 
 dl {
